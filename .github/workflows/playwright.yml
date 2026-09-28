@@ -1,3 +1,65 @@
+# name: Playwright Tests
+
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       environment:
+#         description: 'Environment to test'
+#         required: true
+#         default: 'lower'
+#         type: choice
+#         options:
+#           - lower
+#           - production
+#   push:
+#     branches:
+#       - main
+
+#   pull_request:
+#     branches:
+#       - main
+
+# jobs:
+
+ 
+#   playwright-tests:
+
+#     runs-on: ubuntu-latest
+#     environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'lower' }}
+
+#     steps:
+
+#       - name: Checkout project
+#         uses: actions/checkout@v4
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 22
+#           cache: npm
+
+#       - name: Install dependencies
+#         run: npm ci
+
+#       - name: Install Chromium
+#         run: npx playwright install --with-deps chromium
+
+#       - name: Run Playwright tests
+#         run: npx playwright test --project=chromium
+#         env:
+#           BASE_URL: ${{ secrets.BASE_URL }}
+#           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
+#           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+
+#       - name: Upload Playwright report
+#         if: always()
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: playwright-report-${{ inputs.environment }}
+#           path: playwright-report/
+#           retention-days: 7
+
+
 name: Playwright Tests
 
 on:
@@ -18,6 +80,9 @@ on:
   pull_request:
     branches:
       - main
+
+  repository_dispatch:
+    types: [alabbas-store-updated]
 
 jobs:
 
