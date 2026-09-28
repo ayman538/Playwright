@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import { env } from './config/env';
-  const isCI = !!process.env.CI;
+  const isCI = env.ci === 'true';
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
