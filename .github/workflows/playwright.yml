@@ -27,8 +27,7 @@ jobs:
     runs-on: ubuntu-latest
   environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'lower' }}
 
-
-    steps:
+  steps:
 
       - name: Checkout project
         uses: actions/checkout@v4
