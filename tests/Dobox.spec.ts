@@ -43,7 +43,7 @@ test('Verify user can search and open service @smoke @regression', async ({ page
 });
 
 
-test('Verify user can add new space', async ({ page }) => {
+test('Verify user can add new space @space', async ({ page }) => {
 
 
   const loginPage = new LoginPage(page);
@@ -55,7 +55,7 @@ test('Verify user can add new space', async ({ page }) => {
 
 
   const newDoboxSpace = new NewSpacePopup(page);
-  await newDoboxSpace.FillSpaceInfo('Test Space 1', ['moghanem.c@stc.com.sa', 'ayabdallah.c@stc.com.sa'],['Moataz Samy Ghanem', 'Ayman Saeed Abdallah']);
+  await newDoboxSpace.FillSpaceInfo('Test Space 1', ['moghanem.c@stc.com.sa', 'ayabdallah.c@stc.com.sa'], ['Moataz Samy Ghanem', 'Ayman Saeed Abdallah']);
 
 
   await page.pause();

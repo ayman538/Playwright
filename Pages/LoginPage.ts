@@ -5,7 +5,7 @@ export class LoginPage {
   readonly userName: Locator;
   readonly password: Locator;
   readonly loginButton: Locator;
-
+  
   constructor(page: Page) {
     // Elements
     this.userName = page.locator('#mat-input-0');

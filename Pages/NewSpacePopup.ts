@@ -16,6 +16,7 @@ export class NewSpacePopup {
 
     this.SpaceName  =    page.locator('input[formcontrolname="nameFormControl"]');
     this.createButton  =  page.getByRole('button', { name: 'Create' });
+  
 this.addIcon =  page.locator('button.add-btn').first();
   
   this.memberInput =  page.locator('input[data-placeholder="search"]');

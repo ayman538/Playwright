@@ -9,6 +9,11 @@ function requiredEnv(name: string): string {
 }
 
 export const env = {
+  apiBaseURL: process.env.API_BASE_URL ?? 'https://apiblinkdev.hubplatforms.com',
+  get apiUsername(): string { return requiredEnv('API_USERNAME'); },
+  get apiPassword(): string { return requiredEnv('API_PASSWORD'); },
+  get apiClientSecret(): string { return requiredEnv('API_CLIENT_SECRET'); },
+  organizationDomain: process.env.API_ORGANIZATION_DOMAIN ?? 'blink.stcs.com.sa',
   baseURL: process.env.BASE_URL ?? 'https://webdev.hubplatforms.com/new-dobox/#/auth/login',
   get username(): string {
     return requiredEnv('TEST_USERNAME');
@@ -18,7 +23,7 @@ export const env = {
   },
 
     get ci(): string {
-    return requiredEnv('CI');
+    return process.env.CI ?? 'false';
   },
 };
 
