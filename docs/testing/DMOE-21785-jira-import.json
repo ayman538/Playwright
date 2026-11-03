@@ -1,0 +1,755 @@
+{
+  "projectId": 15801,
+  "parentFolder": "HUB 23-24",
+  "folder": "New Web profile revamp",
+  "folderId": 79079,
+  "verifiedCases": [
+    {
+      "id": "HUBCS-7683-A",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10458",
+      "name": "HUBCS-7683-A - My Info Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7683-B",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10459",
+      "name": "HUBCS-7683-B - Missing Value",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7683-C",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10460",
+      "name": "HUBCS-7683-C - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7683-D",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10461",
+      "name": "HUBCS-7683-D - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7683-E",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10462",
+      "name": "HUBCS-7683-E - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7683-F",
+      "story": "HUBCS-7683",
+      "key": "HUBCS-T10463",
+      "name": "HUBCS-7683-F - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - My Info",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7684-A",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10464",
+      "name": "HUBCS-7684-A - Address Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7684-B",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10465",
+      "name": "HUBCS-7684-B - No P.O. Box",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7684-C",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10466",
+      "name": "HUBCS-7684-C - No Address Data",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7684-D",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10467",
+      "name": "HUBCS-7684-D - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7684-E",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10468",
+      "name": "HUBCS-7684-E - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7684-F",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10469",
+      "name": "HUBCS-7684-F - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7684-G",
+      "story": "HUBCS-7684",
+      "key": "HUBCS-T10470",
+      "name": "HUBCS-7684-G - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Address",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7685-A",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10471",
+      "name": "HUBCS-7685-A - Saudi ID Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7685-B",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10472",
+      "name": "HUBCS-7685-B - Copy ID Number",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7685-C",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10473",
+      "name": "HUBCS-7685-C - Expired Document",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7685-D",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10474",
+      "name": "HUBCS-7685-D - No Document Data",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7685-E",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10475",
+      "name": "HUBCS-7685-E - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7685-F",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10476",
+      "name": "HUBCS-7685-F - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7685-G",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10477",
+      "name": "HUBCS-7685-G - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7685-H",
+      "story": "HUBCS-7685",
+      "key": "HUBCS-T10478",
+      "name": "HUBCS-7685-H - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Official Documents",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7686-A",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10479",
+      "name": "HUBCS-7686-A - GOSI Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7686-B",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10480",
+      "name": "HUBCS-7686-B - Copy GOSI Number",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7686-C",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10481",
+      "name": "HUBCS-7686-C - No GOSI Data",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7686-D",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10482",
+      "name": "HUBCS-7686-D - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7686-E",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10483",
+      "name": "HUBCS-7686-E - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7686-F",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10484",
+      "name": "HUBCS-7686-F - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7686-G",
+      "story": "HUBCS-7686",
+      "key": "HUBCS-T10485",
+      "name": "HUBCS-7686-G - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Social Insurance",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7687-A",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10486",
+      "name": "HUBCS-7687-A - Passport Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7687-B",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10487",
+      "name": "HUBCS-7687-B - Issue Place as Received",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7687-C",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10488",
+      "name": "HUBCS-7687-C - Copy Passport Number",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7687-D",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10489",
+      "name": "HUBCS-7687-D - No Passport",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7687-E",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10490",
+      "name": "HUBCS-7687-E - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7687-F",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10491",
+      "name": "HUBCS-7687-F - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7687-G",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10492",
+      "name": "HUBCS-7687-G - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7687-H",
+      "story": "HUBCS-7687",
+      "key": "HUBCS-T10493",
+      "name": "HUBCS-7687-H - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Passport",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7688-A",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10494",
+      "name": "HUBCS-7688-A - License Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7688-B",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10495",
+      "name": "HUBCS-7688-B - Copy License Number",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7688-C",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10496",
+      "name": "HUBCS-7688-C - No Driving License",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7688-D",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10497",
+      "name": "HUBCS-7688-D - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7688-E",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10498",
+      "name": "HUBCS-7688-E - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7688-F",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10499",
+      "name": "HUBCS-7688-F - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7688-G",
+      "story": "HUBCS-7688",
+      "key": "HUBCS-T10500",
+      "name": "HUBCS-7688-G - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Driving License",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7689-A",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10501",
+      "name": "HUBCS-7689-A - Family Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7689-B",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10502",
+      "name": "HUBCS-7689-B - Order as Received",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7689-C",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10503",
+      "name": "HUBCS-7689-C - Show More",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7689-D",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10504",
+      "name": "HUBCS-7689-D - Show Less",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7689-E",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10505",
+      "name": "HUBCS-7689-E - 5 or Fewer Members",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7689-F",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10506",
+      "name": "HUBCS-7689-F - No Family Members",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7689-G",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10507",
+      "name": "HUBCS-7689-G - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7689-H",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10508",
+      "name": "HUBCS-7689-H - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7689-I",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10509",
+      "name": "HUBCS-7689-I - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7689-J",
+      "story": "HUBCS-7689",
+      "key": "HUBCS-T10510",
+      "name": "HUBCS-7689-J - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Family",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7690-A",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10511",
+      "name": "HUBCS-7690-A - Bank Display",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7690-B",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10512",
+      "name": "HUBCS-7690-B - Bank Logo",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7690-C",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10513",
+      "name": "HUBCS-7690-C - Copy Account Number",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7690-D",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10514",
+      "name": "HUBCS-7690-D - No Bank Data",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7690-E",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10515",
+      "name": "HUBCS-7690-E - Read-Only",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7690-F",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10516",
+      "name": "HUBCS-7690-F - Collapse & Expand",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7690-G",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10517",
+      "name": "HUBCS-7690-G - State Not Saved",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7690-H",
+      "story": "HUBCS-7690",
+      "key": "HUBCS-T10518",
+      "name": "HUBCS-7690-H - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Personal Info - Bank",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-A",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10519",
+      "name": "HUBCS-7692-A - Default Landing - Employee",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-B",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10520",
+      "name": "HUBCS-7692-B - Default Landing - Contractor",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-C",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10521",
+      "name": "HUBCS-7692-C - Manager Sections",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-D",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10522",
+      "name": "HUBCS-7692-D - Employee Sections",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-E",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10523",
+      "name": "HUBCS-7692-E - Contractor Sections",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-F",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10524",
+      "name": "HUBCS-7692-F - Header Persistence",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-G",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10525",
+      "name": "HUBCS-7692-G - Expand Sub Sections",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-H",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10526",
+      "name": "HUBCS-7692-H - Update Cover",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-I",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10527",
+      "name": "HUBCS-7692-I - Invalid Cover Upload",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-J",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10528",
+      "name": "HUBCS-7692-J - Update Profile Picture",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-K",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10529",
+      "name": "HUBCS-7692-K - Edit Nickname",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-L",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10530",
+      "name": "HUBCS-7692-L - Availability Status - Available",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-M",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10531",
+      "name": "HUBCS-7692-M - Availability Status - Vacation",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-N",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10532",
+      "name": "HUBCS-7692-N - Copy Email",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-O",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10533",
+      "name": "HUBCS-7692-O - Multiple Mobile Numbers",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-P",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10534",
+      "name": "HUBCS-7692-P - Navigate to Manager Profile",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-Q",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10535",
+      "name": "HUBCS-7692-Q - Action Buttons",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-R",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10536",
+      "name": "HUBCS-7692-R - More Menu",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-S",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10537",
+      "name": "HUBCS-7692-S - Delegation",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-T",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10538",
+      "name": "HUBCS-7692-T - Empty Field Hidden",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    },
+    {
+      "id": "HUBCS-7692-U",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10539",
+      "name": "HUBCS-7692-U - Error State",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 4
+    },
+    {
+      "id": "HUBCS-7692-V",
+      "story": "HUBCS-7692",
+      "key": "HUBCS-T10540",
+      "name": "HUBCS-7692-V - Localization",
+      "folder": "/HUB 23-24/New Web profile revamp/Profile Header - view profile header and sections navigation",
+      "status": "Draft",
+      "stepCount": 3
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "HUBCS-7683-A",
+    "story": "HUBCS-7683",
+    "title": "My Info Display",
+    "scenario": "An employee opens Personal info. The My info section displays first name \"Abdullah\", second name \"Ali\", family name \"Aldosari\", date of birth \"30 January 1993\", and nationality \"Saudi Arabia\" with the Saudi flag.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The My info section displays first name \"Abdullah\", second name \"Ali\", family name \"Aldosari\", date of birth \"30 January 1993\", and nationality \"Saudi Arabia\" with the Saudi flag."
+    ],
+    "expectedResult": "An employee opens Personal info. The My info section displays first name \"Abdullah\", second name \"Ali\", family name \"Aldosari\", date of birth \"30 January 1993\", and nationality \"Saudi Arabia\" with the Saudi flag."
+  },
+  {
+    "id": "HUBCS-7683-B",
+    "story": "HUBCS-7683",
+    "title": "Missing Value",
+    "scenario": "An employee has no second name in the backend. The second name field displays \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no second name in the backend. The second name field displays \"--\"."
+    ],
+    "expectedResult": "An employee has no second name in the backend. The second name field displays \"--\"."
+  },
+  {
+    "id": "HUBCS-7683-C",
+    "story": "HUBCS-7683",
+    "title": "Read-Only",
+    "scenario": "An employee views the My info section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the My info section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the My info section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7683-D",
+    "story": "HUBCS-7683",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the My info section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the My info section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the My info section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7683-E",
+    "story": "HUBCS-7683",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the My info section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the My info section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the My info section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7683-F",
+    "story": "HUBCS-7683",
+    "title": "Error State",
+    "scenario": "The system fails to load the My info data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your info. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the My info data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your info. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the My info data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your info. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7684-A",
+    "story": "HUBCS-7684",
+    "title": "Address Display",
+    "scenario": "An employee opens Personal info. The Address section displays address \"3080 Imam Saud Road\", city \"Riyadh\", district \"Al Mursalat\", and zip code \"123863\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Address section displays address \"3080 Imam Saud Road\", city \"Riyadh\", district \"Al Mursalat\", and zip code \"123863\"."
+    ],
+    "expectedResult": "An employee opens Personal info. The Address section displays address \"3080 Imam Saud Road\", city \"Riyadh\", district \"Al Mursalat\", and zip code \"123863\"."
+  },
+  {
+    "id": "HUBCS-7684-B",
+    "story": "HUBCS-7684",
+    "title": "No P.O. Box",
+    "scenario": "An employee has no P.O. Box in the backend. The P.O. Box field displays \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no P.O. Box in the backend. The P.O. Box field displays \"--\"."
+    ],
+    "expectedResult": "An employee has no P.O. Box in the backend. The P.O. Box field displays \"--\"."
+  },
+  {
+    "id": "HUBCS-7684-C",
+    "story": "HUBCS-7684",
+    "title": "No Address Data",
+    "scenario": "An employee has no address data. The Address section is displayed with all fields shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no address data. The Address section is displayed with all fields shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no address data. The Address section is displayed with all fields shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7684-D",
+    "story": "HUBCS-7684",
+    "title": "Read-Only",
+    "scenario": "An employee views the Address section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Address section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Address section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7684-E",
+    "story": "HUBCS-7684",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Address section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Address section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Address section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7684-F",
+    "story": "HUBCS-7684",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Address section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Address section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Address section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7684-G",
+    "story": "HUBCS-7684",
+    "title": "Error State",
+    "scenario": "The system fails to load the Address data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your address. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Address data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your address. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Address data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your address. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7685-A",
+    "story": "HUBCS-7685",
+    "title": "Saudi ID Display",
+    "scenario": "A Saudi employee opens Personal info. The Official documents section displays the sub-title \"saudi id\", id number \"2611939946\", issue place \"Riyadh\", issue date \"17-02-2023\", and expiry date \"16-02-2028\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "A Saudi employee opens Personal info. The Official documents section displays the sub-title \"saudi id\", id number \"2611939946\", issue place \"Riyadh\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+    ],
+    "expectedResult": "A Saudi employee opens Personal info. The Official documents section displays the sub-title \"saudi id\", id number \"2611939946\", issue place \"Riyadh\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+  },
+  {
+    "id": "HUBCS-7685-B",
+    "story": "HUBCS-7685",
+    "title": "Copy ID Number",
+    "scenario": "An employee presses the copy icon beside the id number. The number is copied and the default system message is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the id number. The number is copied and the default system message is displayed."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the id number. The number is copied and the default system message is displayed."
+  },
+  {
+    "id": "HUBCS-7685-C",
+    "story": "HUBCS-7685",
+    "title": "Expired Document",
+    "scenario": "An employee's ID expiry date has passed. The expiry date is displayed normally, without a highlight.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee's ID expiry date has passed. The expiry date is displayed normally, without a highlight."
+    ],
+    "expectedResult": "An employee's ID expiry date has passed. The expiry date is displayed normally, without a highlight."
+  },
+  {
+    "id": "HUBCS-7685-D",
+    "story": "HUBCS-7685",
+    "title": "No Document Data",
+    "scenario": "An employee has no ID data. The section is displayed with all fields shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no ID data. The section is displayed with all fields shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no ID data. The section is displayed with all fields shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7685-E",
+    "story": "HUBCS-7685",
+    "title": "Read-Only",
+    "scenario": "An employee views the Official documents section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Official documents section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Official documents section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7685-F",
+    "story": "HUBCS-7685",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Official documents section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Official documents section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Official documents section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7685-G",
+    "story": "HUBCS-7685",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Official documents section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Official documents section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Official documents section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7685-H",
+    "story": "HUBCS-7685",
+    "title": "Error State",
+    "scenario": "The system fails to load the Official documents data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your official documents. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Official documents data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your official documents. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Official documents data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your official documents. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7686-A",
+    "story": "HUBCS-7686",
+    "title": "GOSI Display",
+    "scenario": "An employee opens Personal info. The Social insurance section displays the GOSI number \"4692343\" with the GOSI logo.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Social insurance section displays the GOSI number \"4692343\" with the GOSI logo."
+    ],
+    "expectedResult": "An employee opens Personal info. The Social insurance section displays the GOSI number \"4692343\" with the GOSI logo."
+  },
+  {
+    "id": "HUBCS-7686-B",
+    "story": "HUBCS-7686",
+    "title": "Copy GOSI Number",
+    "scenario": "An employee presses the copy icon beside the GOSI number. The number is copied and the default system message is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the GOSI number. The number is copied and the default system message is displayed."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the GOSI number. The number is copied and the default system message is displayed."
+  },
+  {
+    "id": "HUBCS-7686-C",
+    "story": "HUBCS-7686",
+    "title": "No GOSI Data",
+    "scenario": "An employee has no GOSI number. The section is displayed with the GOSI number shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no GOSI number. The section is displayed with the GOSI number shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no GOSI number. The section is displayed with the GOSI number shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7686-D",
+    "story": "HUBCS-7686",
+    "title": "Read-Only",
+    "scenario": "An employee views the Social insurance section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Social insurance section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Social insurance section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7686-E",
+    "story": "HUBCS-7686",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Social insurance section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Social insurance section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Social insurance section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7686-F",
+    "story": "HUBCS-7686",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Social insurance section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Social insurance section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Social insurance section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7686-G",
+    "story": "HUBCS-7686",
+    "title": "Error State",
+    "scenario": "The system fails to load the Social insurance data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your social insurance details. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Social insurance data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your social insurance details. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Social insurance data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your social insurance details. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7687-A",
+    "story": "HUBCS-7687",
+    "title": "Passport Display",
+    "scenario": "An employee opens Personal info. The Passport section displays number \"A273014270\", issue place \"120\", issue date \"17-02-2023\", and expiry date \"16-02-2028\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Passport section displays number \"A273014270\", issue place \"120\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+    ],
+    "expectedResult": "An employee opens Personal info. The Passport section displays number \"A273014270\", issue place \"120\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+  },
+  {
+    "id": "HUBCS-7687-B",
+    "story": "HUBCS-7687",
+    "title": "Issue Place as Received",
+    "scenario": "The backend provides the issue place as a code (\"120\"). It is displayed as received.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The backend provides the issue place as a code (\"120\"). It is displayed as received."
+    ],
+    "expectedResult": "The backend provides the issue place as a code (\"120\"). It is displayed as received."
+  },
+  {
+    "id": "HUBCS-7687-C",
+    "story": "HUBCS-7687",
+    "title": "Copy Passport Number",
+    "scenario": "An employee presses the copy icon beside the passport number. The number is copied and the default system message is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the passport number. The number is copied and the default system message is displayed."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the passport number. The number is copied and the default system message is displayed."
+  },
+  {
+    "id": "HUBCS-7687-D",
+    "story": "HUBCS-7687",
+    "title": "No Passport",
+    "scenario": "An employee has no passport data. The Passport section is displayed with all fields shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no passport data. The Passport section is displayed with all fields shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no passport data. The Passport section is displayed with all fields shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7687-E",
+    "story": "HUBCS-7687",
+    "title": "Read-Only",
+    "scenario": "An employee views the Passport section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Passport section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Passport section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7687-F",
+    "story": "HUBCS-7687",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Passport section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Passport section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Passport section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7687-G",
+    "story": "HUBCS-7687",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Passport section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Passport section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Passport section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7687-H",
+    "story": "HUBCS-7687",
+    "title": "Error State",
+    "scenario": "The system fails to load the Passport data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your passport details. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Passport data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your passport details. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Passport data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your passport details. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7688-A",
+    "story": "HUBCS-7688",
+    "title": "License Display",
+    "scenario": "An employee opens Personal info. The Driving license section displays number \"435435\", issue date \"17-02-2023\", and expiry date \"16-02-2028\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Driving license section displays number \"435435\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+    ],
+    "expectedResult": "An employee opens Personal info. The Driving license section displays number \"435435\", issue date \"17-02-2023\", and expiry date \"16-02-2028\"."
+  },
+  {
+    "id": "HUBCS-7688-B",
+    "story": "HUBCS-7688",
+    "title": "Copy License Number",
+    "scenario": "An employee presses the copy icon beside the license number. The number is copied and the default system message is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the license number. The number is copied and the default system message is displayed."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the license number. The number is copied and the default system message is displayed."
+  },
+  {
+    "id": "HUBCS-7688-C",
+    "story": "HUBCS-7688",
+    "title": "No Driving License",
+    "scenario": "An employee has no driving license data. The section is displayed with all fields shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no driving license data. The section is displayed with all fields shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no driving license data. The section is displayed with all fields shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7688-D",
+    "story": "HUBCS-7688",
+    "title": "Read-Only",
+    "scenario": "An employee views the Driving license section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Driving license section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Driving license section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7688-E",
+    "story": "HUBCS-7688",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Driving license section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Driving license section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Driving license section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7688-F",
+    "story": "HUBCS-7688",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Driving license section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Driving license section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Driving license section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7688-G",
+    "story": "HUBCS-7688",
+    "title": "Error State",
+    "scenario": "The system fails to load the Driving license data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your driving license details. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Driving license data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your driving license details. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Driving license data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your driving license details. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7689-A",
+    "story": "HUBCS-7689",
+    "title": "Family Display",
+    "scenario": "An employee opens Personal info. The Family section displays a table with \"Ali Abdullah Aldosari – Father\" and \"Yasser Ali Aldosari – Brother\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Family section displays a table with \"Ali Abdullah Aldosari – Father\" and \"Yasser Ali Aldosari – Brother\"."
+    ],
+    "expectedResult": "An employee opens Personal info. The Family section displays a table with \"Ali Abdullah Aldosari – Father\" and \"Yasser Ali Aldosari – Brother\"."
+  },
+  {
+    "id": "HUBCS-7689-B",
+    "story": "HUBCS-7689",
+    "title": "Order as Received",
+    "scenario": "An employee has 4 family members. They are displayed in the order received from the backend.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has 4 family members. They are displayed in the order received from the backend."
+    ],
+    "expectedResult": "An employee has 4 family members. They are displayed in the order received from the backend."
+  },
+  {
+    "id": "HUBCS-7689-C",
+    "story": "HUBCS-7689",
+    "title": "Show More",
+    "scenario": "An employee has 9 family members. The first 5 are displayed with a \"show more\" button; pressing it displays all 9 and the button changes to \"show less\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has 9 family members. The first 5 are displayed with a \"show more\" button; pressing it displays all 9 and the button changes to \"show less\"."
+    ],
+    "expectedResult": "An employee has 9 family members. The first 5 are displayed with a \"show more\" button; pressing it displays all 9 and the button changes to \"show less\"."
+  },
+  {
+    "id": "HUBCS-7689-D",
+    "story": "HUBCS-7689",
+    "title": "Show Less",
+    "scenario": "An employee presses \"show less\". The table returns to the first 5 family members.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses \"show less\". The table returns to the first 5 family members."
+    ],
+    "expectedResult": "An employee presses \"show less\". The table returns to the first 5 family members."
+  },
+  {
+    "id": "HUBCS-7689-E",
+    "story": "HUBCS-7689",
+    "title": "5 or Fewer Members",
+    "scenario": "An employee has 4 family members. All 4 are displayed, and the show more button is not displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has 4 family members. All 4 are displayed, and the show more button is not displayed."
+    ],
+    "expectedResult": "An employee has 4 family members. All 4 are displayed, and the show more button is not displayed."
+  },
+  {
+    "id": "HUBCS-7689-F",
+    "story": "HUBCS-7689",
+    "title": "No Family Members",
+    "scenario": "An employee has no registered family members. The Family section is displayed with the table header and no rows.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no registered family members. The Family section is displayed with the table header and no rows."
+    ],
+    "expectedResult": "An employee has no registered family members. The Family section is displayed with the table header and no rows."
+  },
+  {
+    "id": "HUBCS-7689-G",
+    "story": "HUBCS-7689",
+    "title": "Read-Only",
+    "scenario": "An employee views the Family section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Family section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Family section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7689-H",
+    "story": "HUBCS-7689",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Family section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Family section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Family section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7689-I",
+    "story": "HUBCS-7689",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Family section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Family section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Family section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7689-J",
+    "story": "HUBCS-7689",
+    "title": "Error State",
+    "scenario": "The system fails to load the Family data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your family members. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Family data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your family members. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Family data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your family members. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7690-A",
+    "story": "HUBCS-7690",
+    "title": "Bank Display",
+    "scenario": "An employee opens Personal info. The Bank section displays the account number \"1000023677089\" with their bank's logo.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens Personal info. The Bank section displays the account number \"1000023677089\" with their bank's logo."
+    ],
+    "expectedResult": "An employee opens Personal info. The Bank section displays the account number \"1000023677089\" with their bank's logo."
+  },
+  {
+    "id": "HUBCS-7690-B",
+    "story": "HUBCS-7690",
+    "title": "Bank Logo",
+    "scenario": "Two employees have accounts in different banks. Each sees their own bank's logo beside the account number.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "Two employees have accounts in different banks. Each sees their own bank's logo beside the account number."
+    ],
+    "expectedResult": "Two employees have accounts in different banks. Each sees their own bank's logo beside the account number."
+  },
+  {
+    "id": "HUBCS-7690-C",
+    "story": "HUBCS-7690",
+    "title": "Copy Account Number",
+    "scenario": "An employee presses the copy icon beside the account number. The number is copied and the default system message is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the account number. The number is copied and the default system message is displayed."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the account number. The number is copied and the default system message is displayed."
+  },
+  {
+    "id": "HUBCS-7690-D",
+    "story": "HUBCS-7690",
+    "title": "No Bank Data",
+    "scenario": "An employee has no bank data. The section is displayed with the account number shown as \"--\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no bank data. The section is displayed with the account number shown as \"--\"."
+    ],
+    "expectedResult": "An employee has no bank data. The section is displayed with the account number shown as \"--\"."
+  },
+  {
+    "id": "HUBCS-7690-E",
+    "story": "HUBCS-7690",
+    "title": "Read-Only",
+    "scenario": "An employee views the Bank section. No add or edit icon is displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee views the Bank section. No add or edit icon is displayed."
+    ],
+    "expectedResult": "An employee views the Bank section. No add or edit icon is displayed."
+  },
+  {
+    "id": "HUBCS-7690-F",
+    "story": "HUBCS-7690",
+    "title": "Collapse & Expand",
+    "scenario": "An employee collapses the Bank section and expands it again. The content is hidden and then displayed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Bank section and expands it again. The content is hidden and then displayed again."
+    ],
+    "expectedResult": "An employee collapses the Bank section and expands it again. The content is hidden and then displayed again."
+  },
+  {
+    "id": "HUBCS-7690-G",
+    "story": "HUBCS-7690",
+    "title": "State Not Saved",
+    "scenario": "An employee collapses the Bank section, leaves the page, and returns to Personal info. The section is displayed expanded.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee collapses the Bank section, leaves the page, and returns to Personal info. The section is displayed expanded."
+    ],
+    "expectedResult": "An employee collapses the Bank section, leaves the page, and returns to Personal info. The section is displayed expanded."
+  },
+  {
+    "id": "HUBCS-7690-H",
+    "story": "HUBCS-7690",
+    "title": "Error State",
+    "scenario": "The system fails to load the Bank data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your bank details. Please try again.\", while the other sections display normally. 🔄",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "The system fails to load the Bank data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your bank details. Please try again.\", while the other sections display normally. 🔄"
+    ],
+    "expectedResult": "The system fails to load the Bank data. The section displays the error state \"Something went wrong\" with the subtitle \"Unable to load your bank details. Please try again.\", while the other sections display normally. 🔄"
+  },
+  {
+    "id": "HUBCS-7692-A",
+    "story": "HUBCS-7692",
+    "title": "Default Landing - Employee",
+    "scenario": "An STC Employee opens their profile. The profile opens on the Profile Overview section, which is highlighted in the sections menu, with the header displayed at the top.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An STC Employee opens their profile. The profile opens on the Profile Overview section, which is highlighted in the sections menu, with the header displayed at the top."
+    ],
+    "expectedResult": "An STC Employee opens their profile. The profile opens on the Profile Overview section, which is highlighted in the sections menu, with the header displayed at the top."
+  },
+  {
+    "id": "HUBCS-7692-B",
+    "story": "HUBCS-7692",
+    "title": "Default Landing - Contractor",
+    "scenario": "An STC Contractor Employee opens their profile. Profile Overview is not displayed in the menu, and the profile opens on the Business Info section instead.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An STC Contractor Employee opens their profile. Profile Overview is not displayed in the menu, and the profile opens on the Business Info section instead."
+    ],
+    "expectedResult": "An STC Contractor Employee opens their profile. Profile Overview is not displayed in the menu, and the profile opens on the Business Info section instead."
+  },
+  {
+    "id": "HUBCS-7692-C",
+    "story": "HUBCS-7692",
+    "title": "Manager Sections",
+    "scenario": "An STC Manager opens their profile and sees 10 sections in the menu, including My Team.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An STC Manager opens their profile and sees 10 sections in the menu, including My Team."
+    ],
+    "expectedResult": "An STC Manager opens their profile and sees 10 sections in the menu, including My Team."
+  },
+  {
+    "id": "HUBCS-7692-D",
+    "story": "HUBCS-7692",
+    "title": "Employee Sections",
+    "scenario": "An STC Employee opens their profile and sees 9 sections in the menu. My Team is not displayed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An STC Employee opens their profile and sees 9 sections in the menu. My Team is not displayed."
+    ],
+    "expectedResult": "An STC Employee opens their profile and sees 9 sections in the menu. My Team is not displayed."
+  },
+  {
+    "id": "HUBCS-7692-E",
+    "story": "HUBCS-7692",
+    "title": "Contractor Sections",
+    "scenario": "An STC Contractor Employee opens their profile and sees 4 sections only: Business Info, Attendance, Vacations and Career Development.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An STC Contractor Employee opens their profile and sees 4 sections only: Business Info, Attendance, Vacations and Career Development."
+    ],
+    "expectedResult": "An STC Contractor Employee opens their profile and sees 4 sections only: Business Info, Attendance, Vacations and Career Development."
+  },
+  {
+    "id": "HUBCS-7692-F",
+    "story": "HUBCS-7692",
+    "title": "Header Persistence",
+    "scenario": "An employee navigates from Attendance to Vacations. The header and the sections menu remain fixed, and only the content area on the right is changed.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee navigates from Attendance to Vacations. The header and the sections menu remain fixed, and only the content area on the right is changed."
+    ],
+    "expectedResult": "An employee navigates from Attendance to Vacations. The header and the sections menu remain fixed, and only the content area on the right is changed."
+  },
+  {
+    "id": "HUBCS-7692-G",
+    "story": "HUBCS-7692",
+    "title": "Expand Sub Sections",
+    "scenario": "An employee presses the arrow beside Earnings & Benefits. The section expands and displays Salary and Benefits. The employee then navigates to Attendance, and Earnings & Benefits is collapsed again.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the arrow beside Earnings & Benefits. The section expands and displays Salary and Benefits. The employee then navigates to Attendance, and Earnings & Benefits is collapsed again."
+    ],
+    "expectedResult": "An employee presses the arrow beside Earnings & Benefits. The section expands and displays Salary and Benefits. The employee then navigates to Attendance, and Earnings & Benefits is collapsed again."
+  },
+  {
+    "id": "HUBCS-7692-H",
+    "story": "HUBCS-7692",
+    "title": "Update Cover",
+    "scenario": "An employee presses \"update cover / تحديث الغلاف\" selects a 2 MB JPG image from their device, and the cover image is updated immediately.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses \"update cover / تحديث الغلاف\" selects a 2 MB JPG image from their device, and the cover image is updated immediately."
+    ],
+    "expectedResult": "An employee presses \"update cover / تحديث الغلاف\" selects a 2 MB JPG image from their device, and the cover image is updated immediately."
+  },
+  {
+    "id": "HUBCS-7692-I",
+    "story": "HUBCS-7692",
+    "title": "Invalid Cover Upload",
+    "scenario": "An employee tries to upload a 7 MB cover image. The system rejects the file and displays \"Unsupported file. Please upload a JPG or PNG image up to 5 MB.\"",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee tries to upload a 7 MB cover image. The system rejects the file and displays \"Unsupported file. Please upload a JPG or PNG image up to 5 MB.\""
+    ],
+    "expectedResult": "An employee tries to upload a 7 MB cover image. The system rejects the file and displays \"Unsupported file. Please upload a JPG or PNG image up to 5 MB.\""
+  },
+  {
+    "id": "HUBCS-7692-J",
+    "story": "HUBCS-7692",
+    "title": "Update Profile Picture",
+    "scenario": "An employee presses the camera icon on their profile picture, uploads a new 1 MB PNG image, and the profile picture is updated.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the camera icon on their profile picture, uploads a new 1 MB PNG image, and the profile picture is updated."
+    ],
+    "expectedResult": "An employee presses the camera icon on their profile picture, uploads a new 1 MB PNG image, and the profile picture is updated."
+  },
+  {
+    "id": "HUBCS-7692-K",
+    "story": "HUBCS-7692",
+    "title": "Edit Nickname",
+    "scenario": "An employee presses the edit icon beside the nickname, updates it to \"Abo Khaled\", and the nickname is displayed beside the employee name preceded by \"@\".",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the edit icon beside the nickname, updates it to \"Abo Khaled\", and the nickname is displayed beside the employee name preceded by \"@\"."
+    ],
+    "expectedResult": "An employee presses the edit icon beside the nickname, updates it to \"Abo Khaled\", and the nickname is displayed beside the employee name preceded by \"@\"."
+  },
+  {
+    "id": "HUBCS-7692-L",
+    "story": "HUBCS-7692",
+    "title": "Availability Status - Available",
+    "scenario": "An employee is clocked in at the office. The system displays the \"Available / متاح\" badge beside the nickname automatically, without any action from the employee.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee is clocked in at the office. The system displays the \"Available / متاح\" badge beside the nickname automatically, without any action from the employee."
+    ],
+    "expectedResult": "An employee is clocked in at the office. The system displays the \"Available / متاح\" badge beside the nickname automatically, without any action from the employee."
+  },
+  {
+    "id": "HUBCS-7692-M",
+    "story": "HUBCS-7692",
+    "title": "Availability Status - Vacation",
+    "scenario": "An employee has an approved vacation starting today. The system displays the \"Vacation / في إجازة\" badge automatically, and the employee cannot change it.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has an approved vacation starting today. The system displays the \"Vacation / في إجازة\" badge automatically, and the employee cannot change it."
+    ],
+    "expectedResult": "An employee has an approved vacation starting today. The system displays the \"Vacation / في إجازة\" badge automatically, and the employee cannot change it."
+  },
+  {
+    "id": "HUBCS-7692-N",
+    "story": "HUBCS-7692",
+    "title": "Copy Email",
+    "scenario": "An employee presses the copy icon beside the email address. The email is copied to the clipboard and the confirmation message \"Email copied / تم نسخ البريد الإلكتروني\" appears.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the copy icon beside the email address. The email is copied to the clipboard and the confirmation message \"Email copied / تم نسخ البريد الإلكتروني\" appears."
+    ],
+    "expectedResult": "An employee presses the copy icon beside the email address. The email is copied to the clipboard and the confirmation message \"Email copied / تم نسخ البريد الإلكتروني\" appears."
+  },
+  {
+    "id": "HUBCS-7692-O",
+    "story": "HUBCS-7692",
+    "title": "Multiple Mobile Numbers",
+    "scenario": "An employee has 3 mobile numbers. The header displays the primary number with a \"+2\" badge. Pressing the badge displays the other 2 numbers.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has 3 mobile numbers. The header displays the primary number with a \"+2\" badge. Pressing the badge displays the other 2 numbers."
+    ],
+    "expectedResult": "An employee has 3 mobile numbers. The header displays the primary number with a \"+2\" badge. Pressing the badge displays the other 2 numbers."
+  },
+  {
+    "id": "HUBCS-7692-P",
+    "story": "HUBCS-7692",
+    "title": "Navigate to Manager Profile",
+    "scenario": "An employee presses the manager name in the contact row. The system navigates to the manager profile.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the manager name in the contact row. The system navigates to the manager profile."
+    ],
+    "expectedResult": "An employee presses the manager name in the contact row. The system navigates to the manager profile."
+  },
+  {
+    "id": "HUBCS-7692-Q",
+    "story": "HUBCS-7692",
+    "title": "Action Buttons",
+    "scenario": "An employee opens their profile. The Create Meeting, Add Task, Org Chart, Delegation and More buttons are displayed in the header.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee opens their profile. The Create Meeting, Add Task, Org Chart, Delegation and More buttons are displayed in the header."
+    ],
+    "expectedResult": "An employee opens their profile. The Create Meeting, Add Task, Org Chart, Delegation and More buttons are displayed in the header."
+  },
+  {
+    "id": "HUBCS-7692-R",
+    "story": "HUBCS-7692",
+    "title": "More Menu",
+    "scenario": "An employee presses the More button. A menu is displayed containing Share Profile and Report an Issue.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the More button. A menu is displayed containing Share Profile and Report an Issue."
+    ],
+    "expectedResult": "An employee presses the More button. A menu is displayed containing Share Profile and Report an Issue."
+  },
+  {
+    "id": "HUBCS-7692-S",
+    "story": "HUBCS-7692",
+    "title": "Delegation",
+    "scenario": "An employee presses the Delegation button. The system navigates them to the Delegation Center service to manage their delegations.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee presses the Delegation button. The system navigates them to the Delegation Center service to manage their delegations."
+    ],
+    "expectedResult": "An employee presses the Delegation button. The system navigates them to the Delegation Center service to manage their delegations."
+  },
+  {
+    "id": "HUBCS-7692-T",
+    "story": "HUBCS-7692",
+    "title": "Empty Field Hidden",
+    "scenario": "An employee has no nickname and no location. Both fields are hidden from the header, and the remaining fields are displayed normally without empty placeholders.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee has no nickname and no location. Both fields are hidden from the header, and the remaining fields are displayed normally without empty placeholders."
+    ],
+    "expectedResult": "An employee has no nickname and no location. Both fields are hidden from the header, and the remaining fields are displayed normally without empty placeholders."
+  },
+  {
+    "id": "HUBCS-7692-U",
+    "story": "HUBCS-7692",
+    "title": "Error State",
+    "scenario": "A network failure occurs while loading the profile. The system displays \"Something went wrong / حدث خطأ ما\" with the subtitle and the Contact Support button. Pressing the button opens the email client with hubsupport@stc.com.sa pre-filled.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "A network failure occurs while loading the profile. The system displays \"Something went wrong / حدث خطأ ما\" with the subtitle and the Contact Support button. Pressing the button opens the email client with hubsupport@stc.com.sa pre-filled."
+    ],
+    "expectedResult": "A network failure occurs while loading the profile. The system displays \"Something went wrong / حدث خطأ ما\" with the subtitle and the Contact Support button. Pressing the button opens the email client with hubsupport@stc.com.sa pre-filled."
+  },
+  {
+    "id": "HUBCS-7692-V",
+    "story": "HUBCS-7692",
+    "title": "Localization",
+    "scenario": "An employee changes the Hub language to Arabic. All section names, labels, buttons and messages are displayed in Arabic.",
+    "status": "Not run — see separate execution report for automated checks.",
+    "preconditions": "Authenticated employee on the development portal; use a role/data fixture matching this scenario.",
+    "steps": [
+      "Open the profile or Personal info section identified by the story.",
+      "An employee changes the Hub language to Arabic. All section names, labels, buttons and messages are displayed in Arabic."
+    ],
+    "expectedResult": "An employee changes the Hub language to Arabic. All section names, labels, buttons and messages are displayed in Arabic."
+  }
+]

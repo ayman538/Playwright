@@ -1,0 +1,190 @@
+[
+  {
+    "id": "HUBCS-7692: header identity and email",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7683: selected menu and first section",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7683: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7683: fields and order",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7683: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7683: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7684: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7684: fields and order",
+    "status": "Failed",
+    "detail": "expect(received).toEqual(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n  Array [\n    \"address\",\n    \"city\",\n    \"district\",\n    \"zip code\",\n-   \"p.o. box\",\n+   \"po box\",\n  ]"
+  },
+  {
+    "id": "HUBCS-7684: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7684: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7685: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7685: fields and order",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7685: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7685: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7685: clipboard equality and confirmation",
+    "status": "Failed",
+    "detail": "locator.click: Timeout 1500ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'official documents', exact: true, level: 3 }) }).locator('.field').filter({ has: locator('dt').filter({ hasText: /^id number$/i }) }).getByRole('button', { name: /copy/i })\n"
+  },
+  {
+    "id": "HUBCS-7686: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7686: fields and order",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7686: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7686: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7686: clipboard equality and confirmation",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7687: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7687: fields and order",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7687: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7687: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7687: clipboard equality and confirmation",
+    "status": "Failed",
+    "detail": "locator.click: Timeout 1500ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'passport', exact: true, level: 3 }) }).locator('.field').filter({ has: locator('dt').filter({ hasText: /^number$/i }) }).getByRole('button', { name: /copy/i })\n"
+  },
+  {
+    "id": "HUBCS-7688: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7688: fields and order",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7688: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7688: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7688: clipboard equality",
+    "status": "Blocked",
+    "detail": "No populated number for this account."
+  },
+  {
+    "id": "HUBCS-7690: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7690: fields and order",
+    "status": "Failed",
+    "detail": "expect(received).toEqual(expected) // deep equality\n\n- Expected  - 0\n+ Received  + 1\n\n  Array [\n+   \"bank\",\n    \"account number\",\n  ]"
+  },
+  {
+    "id": "HUBCS-7690: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7690: no section load error",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7690: clipboard equality",
+    "status": "Blocked",
+    "detail": "No populated number for this account."
+  },
+  {
+    "id": "HUBCS-7689: expanded by default and read-only",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7689: fields and order",
+    "status": "Failed",
+    "detail": "expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('columnheader')\nTimeout: 1500ms\n- Expected  - 4\n+ Received  + 1\n\n- Array [\n-   \"name\",\n-   \"relation\",\n- ]\n+ Array []\n\nCall log:\n  - Expect \"toHaveText\" getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('columnheader') with timeout 1500ms\n  - waiting for getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('columnheader')\n    13 × locator resolved to 0 elements\n"
+  },
+  {
+    "id": "HUBCS-7689: collapse and expand",
+    "status": "Passed"
+  },
+  {
+    "id": "HUBCS-7689: no section load error",
+    "status": "Failed",
+    "detail": "expect(locator).toHaveCount(expected) failed\n\nLocator:  getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('alert')\nExpected: 0\nReceived: 1\nTimeout:  1500ms\n\nCall log:\n  - Expect \"toHaveCount\" getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('alert') with timeout 1500ms\n  - waiting for getByRole('region', { name: 'personal info', exact: true }).locator('hp-section-card').filter({ has: getByRole('heading', { name: 'family', exact: true, level: 3 }) }).getByRole('alert')\n    14 × locator resolved to 1 element\n       - unexpected value \"1\"\n"
+  },
+  {
+    "id": "HUBCS-7683: birth date D MMMM YYYY",
+    "status": "Failed",
+    "detail": "expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('region', { name: 'personal info', exact: true }).locator('.field').filter({ has: getByText('date of birth', { exact: true }) }).locator('dd')\nExpected pattern: /^(?:--|\\d{1,2} [A-Za-z]+ \\d{4})$/\nReceived string:  \"05-01-1993\"\nTimeout: 1500ms\n\nCall log:\n  - Expect \"toHaveText\" getByRole('region', { name: 'personal info', exact: true }).locator('.field').filter({ has: getByText('date of birth', { exact: true }) }).locator('dd') with timeout 1500ms\n  - waiting for getByRole('region', { name: 'personal info', exact: true }).locator('.field').filter({ has: getByText('date of birth', { exact: true }) }).locator('dd')\n    15 × locator resolved to <dd _ngcontent-ng-c1964738711=\"\">…</dd>\n       - unexpected value \"05-01-1993\"\n"
+  },
+  {
+    "id": "Personal info: missing values use two hyphens",
+    "status": "Failed",
+    "detail": "Empty or alternative dash placeholders\n\nexpect(received).toEqual(expected) // deep equality\n\n- Expected  -  1\n+ Received  + 10\n\n- Array []\n+ Array [\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+   \"—\",\n+ ]"
+  },
+  {
+    "id": "HUBCS-7692: required header actions",
+    "status": "Failed",
+    "detail": "expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: 'create meeting', exact: true })\nExpected: visible\nTimeout: 1500ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: 'create meeting', exact: true }) with timeout 1500ms\n  - waiting for getByRole('button', { name: 'create meeting', exact: true })\n"
+  },
+  {
+    "id": "HUBCS-7692: email clipboard and confirmation",
+    "status": "Failed",
+    "detail": "expect(locator).toBeVisible() failed\n\nLocator: getByRole('status').filter({ hasText: /Email copied/i })\nExpected: visible\nTimeout: 1500ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('status').filter({ hasText: /Email copied/i }) with timeout 1500ms\n  - waiting for getByRole('status').filter({ hasText: /Email copied/i })\n"
+  },
+  {
+    "id": "Personal info: expanded on re-entry",
+    "status": "Passed"
+  }
+]

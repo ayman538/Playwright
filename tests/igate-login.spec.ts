@@ -24,6 +24,7 @@ test('User can sign in to iGate and open their profile @igate', async ({ page, c
   await context.addCookies(
     Object.entries({
       'access-token': tokens['access-token'],
+      token: tokens['access-token'],
       authorization: tokens.authorization,
       userId: String(tokens['user-id']),
       username: env.username,
