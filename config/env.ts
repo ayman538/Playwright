@@ -9,6 +9,7 @@ function requiredEnv(name: string): string {
 }
 
 export const env = {
+  get portalOrigin(): string { return requiredEnv('PORTAL_ORIGIN'); },
   apiBaseURL: process.env.API_BASE_URL ?? 'https://apiblinkdev.hubplatforms.com',
   get apiUsername(): string { return requiredEnv('API_USERNAME'); },
   get apiPassword(): string { return requiredEnv('API_PASSWORD'); },

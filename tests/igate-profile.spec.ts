@@ -23,8 +23,10 @@ const sections = [
 
 // Each case gets a fresh page and login, so a failed interaction cannot affect the next case.
 test.use({ viewport: { width: 1920, height: 1080 } });
-test.describe('Personal info', { tag: '@profile' }, () => {
+test.describe('Personal info', { tag: ['@profile', '@profile-info-seq'] }, () => {
   test.beforeEach(async ({ page, profilePage }) => {
+
+    
     await test.step('Sign in and open Personal info', async () => {
       const loginPage = new IgateLoginPage(page);
       await test.step('Open iGate login', () => loginPage.goto());
@@ -38,7 +40,7 @@ test.describe('Personal info', { tag: '@profile' }, () => {
   });
 
   test.describe('my info', () => {
-    test('Read-Only @HUBCS-7683-C', async ({ page, profilePage }) => {
+    test('Read-Only @HUBCS-7683-C', async ({ page }) => {
       const myInfoSection = new IgateProfileSection(page, 'my info');
 
       await expect(myInfoSection.toggle).toHaveAttribute('aria-expanded', 'true');

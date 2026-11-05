@@ -2,7 +2,7 @@ import { test, expect, type Page, type BrowserContext } from '@playwright/test';
 import { signIn } from '../../api/auth';
 import { env } from '../../config/env';
 
-export const portalOrigin = 'https://igate-dev-new.stc.com.sa';
+export const portalOrigin = env.portalOrigin;
 export const personalInfoURL = `${portalOrigin}/group/hub/profile?tab=personal-info`;
 
 export async function openPersonalInfo(page: Page, context: BrowserContext) {

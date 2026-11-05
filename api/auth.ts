@@ -34,7 +34,7 @@ export async function signIn(): Promise<AuthTokens> {
         'API-CLIENT': apiClient,
       },
       data: {
-        username: env.apiUsername,
+        username: env.username,
         password: env.apiPassword,
         'organization-domain': env.organizationDomain,
         'is-duo': true,

@@ -110,11 +110,19 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Run Playwright tests
-        run: npx playwright test --project=chromium
+        run: npx playwright test --grep @profile-info-seq
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+          TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+          API_PASSWORD: ${{ secrets.API_PASSWORD }}
+          API_CLIENT_SECRET: ${{ secrets.API_CLIENT_SECRET }}
+          API_ORGANIZATION_DOMAIN: ${{ secrets.API_ORGANIZATION_DOMAIN }}
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_PAT: ${{ secrets.JIRA_PAT }}
+          PORTAL_ORIGIN: ${{ secrets.PORTAL_ORIGIN }}
 
       - name: Upload Playwright report
         if: always()

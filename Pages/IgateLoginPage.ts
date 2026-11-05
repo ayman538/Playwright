@@ -3,7 +3,7 @@ import { signIn } from '../api/auth';
 import { env } from '../config/env';
 
 export class IgateLoginPage {
-  readonly portalOrigin = 'https://igate-dev-new.stc.com.sa';
+  readonly portalOrigin = env.portalOrigin;
   readonly profileURL = `${this.portalOrigin}/group/hub/profile`;
   readonly emailAddress: Locator;
   readonly password: Locator;
