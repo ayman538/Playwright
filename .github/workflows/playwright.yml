@@ -89,7 +89,10 @@ jobs:
  
   playwright-tests:
 
-    runs-on: self-hosted
+    runs-on: [self-hosted, Windows]
+    defaults:
+      run:
+        shell: cmd
     environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'lower' }}
 
     steps:
