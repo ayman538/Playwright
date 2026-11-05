@@ -115,7 +115,6 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
-          TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
           API_PASSWORD: ${{ secrets.API_PASSWORD }}
           API_CLIENT_SECRET: ${{ secrets.API_CLIENT_SECRET }}
           API_ORGANIZATION_DOMAIN: ${{ secrets.API_ORGANIZATION_DOMAIN }}
